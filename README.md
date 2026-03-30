@@ -1,6 +1,10 @@
 # 📡 Network Diagnostics Tool
 
+![Version](https://img.shields.io/badge/version-v1.2.0-brightgreen) ![Platform](https://img.shields.io/badge/platform-Termux-black) ![Author](https://img.shields.io/badge/author-rchics-cyan)
+
 A simple shell-based network diagnostics tool built for **Termux** on Android.
+
+> **Current Version: v1.2.0** — Added version display, input validation, better error handling, and tput color support.
 
 ---
 
@@ -156,3 +160,13 @@ git push -u origin main
 - Android phone with **Termux** installed
 - Internet connection
 - Storage permission: `termux-setup-storage`
+
+---
+
+## 📌 Changelog
+
+| Version | Changes |
+|---------|---------|
+| v1.2.0 | Added version number, input validation, error handling, tput colors |
+| v1.1.0 | Added hacker theme, ASCII banner, author rchics |
+| v1.0.0 | Initial release |

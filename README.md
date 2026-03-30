@@ -38,12 +38,12 @@ pkg install git -y
 
 ### Step 4 — Clone this repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/chicaryan/network_diagnostics.git
 ```
 
 ### Step 5 — Go into the folder
 ```bash
-cd <repo-name>
+cd network_diagnostics
 ```
 
 ### Step 6 — Give permission to the script
@@ -61,7 +61,7 @@ bash network_diagnostics.sh
 ## ⚡ One-Line Install (Run directly from GitHub)
 
 ```bash
-curl -sL https://raw.githubusercontent.com/<your-username>/<repo-name>/main/network_diagnostics.sh | bash
+curl -sL https://raw.githubusercontent.com/chicaryan/network_diagnostics/main/network_diagnostics.sh | bash
 ```
 
 ---
@@ -145,7 +145,7 @@ git init
 git add .
 git commit -m "initial commit"
 git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
+git remote add origin https://github.com/chicaryan/network_diagnostics.git
 git push -u origin main
 ```
 
